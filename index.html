@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggyvest page</title>
+    <style>
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    body {
+        background-color: rgb(6, 40, 99);
+        position: relative;
+    }
+    
+    .images img {
+        position: fixed;
+        width: 250px;
+       
+    }
+    .images .top-left{
+        top: -35px;
+        left: -85px;
+    }
+    .images .top-right{
+        right: -85px;
+        top: -35px;
+       
+    }
+    .images .bottom-left{
+        bottom: -35px;
+        left:-85px
+    }
+    .images .bottom-right{
+        bottom: -35px;
+        right: -85px;
+    }
+    .piggy-logos{
+        text-align: center ;
+        padding: 70px 0;
+        
+    }
+    
+    .form{
+        min-width: 150px;
+        max-width: 450px;
+        margin: 0 auto;
+        
+        background-color: white;
+    
+        
+        
+        padding: 50px;
+        box-sizing: border-box;
+        border-radius: 20px 20px 20px 0; 
+    }
+    form .heading {
+    
+        
+    }
+    form h1 {
+        color: #083e9e;
+        text-align: center;
+        font-weight: 700;
+        font-family: U8,sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        border: 0 solid #e2e8f0;
+    }
+    form p {
+        font-size: .875rem;
+        color: #4a5568;
+        text-align: center;
+        font-family: Karla,sans-serif;
+        border: 0 solid #e2e8f0;
+        transition-duration: 250ms;
+        margin-bottom: 25px;
+    }
+    form .form-group {
+        margin-bottom: 30px;
+    }
+    form .form-group label {
+        font-size: .75rem;
+        color: #4a5568;
+        line-height: 2;
+        font-weight: 700;
+        font-family: U8,sans-serif;
+        border: 0 solid #e2e8f0;
+        box-sizing: inherit;
+        cursor: default;
+        display: block;
+        font-weight: 40%;
+       
+    }
+    form .form-group input {
+        padding-left: .5rem;
+        padding-right: .2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #1a202c;
+        border-radius: .25rem;
+        background-color: #edf2f7;
+        border: 0 solid #e2e8f0;
+        box-sizing: inherit;
+        width: 100%;
+    }
+    .hear-about-us {
+        font-size: .75rem;
+        color: #4a5568;
+        line-height: 2;
+        font-weight: 700;
+        font-family: U8,sans-serif;
+        border: 0 solid #e2e8f0;
+        box-sizing: inherit;
+        cursor: default;
+        display: block;
+        font-weight: 40%;
+    }
+    .hear-about-us select {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #1a202c;
+        border-radius: .25rem;
+        background-color: #edf2f7;
+        border: 0 solid #e2e8f0;
+        box-sizing: inherit;
+        width: 90%;
+        font-family: U8,sans-serif;
+    }
+    form .Submit button{
+        background-color: rgb(8, 62, 158);
+        font-size: .875rem;
+        flex-direction: row;
+        width: 100%;
+        
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        padding-top: 1.25rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-bottom: 1rem;
+        font-weight: 700;
+        margin-top: 0;
+        font-family: U8,sans-serif;
+        border-radius: 10px 10px 10px 0;
+        
+    }
+    p{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 1rem;
+        border: 0 solid #e2e8f0;
+    }
+    p a{
+        color: white;
+        text-decoration: none;
+    }
+</style>
+    
+</head>
+<body>
+    <main>
+<section class="images">
+<img class="top-left" src="circle.png ">
+<img class="top-right" src="Inverted J.png">
+<img class="bottom-left" src="J.png" alt="bottom-left image">
+<img class="bottom-right" src="angle bracket.png">
+</section>
+<section class="piggy-logos">
+    <img src="images.png">
+
+</section>
+<section class="form">
+    <form>
+        <div class="heading">
+            <h1>Create a Secure Account</h1>
+            <p>Welcome to the future of Savings & Investments</p>
+        </div>
+        
+
+        <div class="form-group">
+            <label for="Full Name">Full Name</label>
+            <input type="text" name="" value="" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+            <label for="Email">Email Address</label>
+            <input type="email" name="" value="" placeholder="Email Adddress">
+        </div>
+        <div class="form-group">
+            <label for="Phone Number">Phone Number</label>
+            <input type="text" name="" value="" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type= "password" name="" value="" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="Referrer">Referrer Phone or Promo Code (Optional)
+            </label>
+            <input type="text" name="" value="" placeholder="Referrer Phone or Code ">
+        </div>
+        <div class="hear-about-us"> How Did You Hear About Us? (Optional)
+            <select name="hear_about_us" id="" value="0" >
+                <option value="0">Click to select</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instragram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Google Search">Google Search</option>
+                <option value="Friends/Family/Co-workers">Friends/Family/Co-Workers</option>
+                <option value="Local Newspaper">Local Newspaper</option>
+                <option value="Others">Others</option>
+
+            </select>
+        </div>
+
+        <section class="Submit">
+           <button>Create Account</button>
+        </section>
+    </form>
+    
+
+
+</section>
+<p ><a href="#">Already have an account? Log In</a></p>
+
+
+</section>
+
+    </main>
+</body>
+</html>
